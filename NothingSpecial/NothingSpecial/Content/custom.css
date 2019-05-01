@@ -1,0 +1,58 @@
+﻿@font-face {
+    font-family: 'azonix';
+    src: url('../fonts/Azonix.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    color: yellow;
+}
+
+head{
+    font-family: 'azonix';
+}
+
+h2 {
+    font-family: 'azonix';
+}
+
+h4 {
+    font-family: 'azonix';
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url('../Images/circuitBoard.jpg');
+    font-family: 'azonix';
+}
+
+.body-content {
+    padding: 2em;
+    border: 3px solid #555;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: rgba(128, 128, 128, 0.9);
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 840px;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.table {
+    max-width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
